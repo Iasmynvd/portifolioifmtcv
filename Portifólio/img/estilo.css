@@ -1,0 +1,12 @@
+body{
+    margin-left: 15%;
+margin-right: 15%;
+}
+.navegacao{
+display: grid;
+grid-auto-flow:column ;
+grid-auto-columns: 1fr;
+}
+#titulo{
+    
+}
