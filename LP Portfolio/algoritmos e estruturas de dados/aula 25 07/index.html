@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>soma</title>
+</head>
+<body>
+    <script>
+        function soma(a, b){
+            return a + b;
+        }
+        const resultado = soma(3, 4);
+        window.alert(resultado)
+
+        function somaDois(){
+            let a = parseFloat(prompt("digite o primeiro valor"));
+            let b = parseFloat(prompt("digite o segundo valor"));
+            resultado= a +b;
+            window.alert(resultado)
+        }
+       // somaDois();
+       // fAÇA UM QUE CALCULE A MEDIA , SE >=7 APROVADO SE NAO REPROVADO
+       function media(){
+        let notaum = parseFloat(prompt("digite a primeira nota"))
+        let notadois = parseFloat(prompt("digite a segunda nota"))
+        let media = (notaum + notadois)/2
+
+        if(media >= 7){
+           window.alert("aprovado! media: " + mediasemestre)
+        }else{
+            alert("reprovado")
+        }
+           
+       }
+       media();
+    </script>
+</body>
+</html>

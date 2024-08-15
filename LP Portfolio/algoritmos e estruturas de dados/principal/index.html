@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Botões com Logins e Redirecionamentos</title>
+</head>
+
+<body>
+    <h3>Exemplo de Botões com Logins e Redirecionamentos</h3>
+    <button onclick="botao1Clicado()">Botão 1</button>
+    <button onclick="botao2Clicado()">Botão 2</button>
+    <button onclick="botao3Clicado()">Botão 3</button>
+    <button onclick="botao4Clicado()">Botão 4</button>
+
+    <script>
+        function botao1Clicado() {
+            var login = prompt("Digite o login:");
+            if (login === "admin1") {
+                window.location.href = "https://www.google.com";
+            } else {
+                alert("Login incorreto!");
+            }
+        }
+
+        function botao2Clicado() {
+            var login = prompt("Digite o login:");
+            if (login === "admin2") {
+                window.location.href = "https://www.youtube.com";
+            } else {
+                alert("Login incorreto!");
+            }
+        }
+
+        function botao3Clicado() {
+            var login = prompt("Digite o login:");
+            if (login === "admin3") {
+                window.location.href = "https://www.facebook.com";
+            } else {
+                alert("Login incorreto!");
+            }
+        }
+
+        function botao4Clicado() {
+            var login = prompt("Digite o login:");
+            if (login === "admin4") {
+                window.location.href = "https://www.twitter.com";
+            } else {
+                alert("Login incorreto!");
+            }
+        }
+    </script>
+</body>
+
+</html>
